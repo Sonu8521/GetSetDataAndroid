@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/orange"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+       />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Id :-"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/tv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="105dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:text="  "
+        android:textSize="20dp"
+    />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password :-"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape"
+        android:text="  "
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:text="SignUp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:text="Reset"
+        android:textSize="20dp"
+        android:layout_marginLeft="200dp"
+        />
+
+    <Button
+        android:id="@+id/second_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:text="New User"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</RelativeLayout>
